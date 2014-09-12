@@ -1,3 +1,73 @@
+def equal_to_four(x)
+      if x == 4
+        puts "yup"
+      else
+        puts "nope"
+    end
+  end
+
+    equal_to_four(5)
+
+
+# puts "Please enter a number between 0 and 100:"
+# number = gets.chomp.to_i
+
+# def numba(number)
+# case
+# 	when (number < 50) && (number >= 0) 
+# 		puts "Your number is between 0 and 50."
+# 	when (number <= 100) && (number >= 50)
+# 		puts "Your number is between 50 and 100."
+# 	when number < 0 
+# 		puts "You cannot enter negative numbers."
+# 	else
+# 		puts "you cannot enter numbers higher than 100."
+# 	end
+# end
+
+# puts numba(number)
+			
+			
+
+
+
+# def up_case(argument)
+# 	if argument.length.to_i > 10 
+# 		puts argument.upcase
+# 	else
+# 		puts argument + " does not have more than ten characters."
+# 	end
+# end
+
+# puts up_case("argument")
+# puts up_case("Justin is awesome.")
+
+
+# a = 5 
+
+# answer = case 
+# when a == 5
+# 	"a is 5"
+# when a == 6
+# 	"a is 6"
+# else
+# 	"a is neither 5, nor 6"	
+# end
+
+# puts answer
+
+
+# puts "Enter a number:"
+# a = gets.chomp.to_i
+
+# if a == 3
+# 	puts "a is 3"
+# elsif a == 4
+# 	puts "a is 4"
+# else
+# 	puts "a is neither 3, nor 4"
+# end
+
 
 
 
