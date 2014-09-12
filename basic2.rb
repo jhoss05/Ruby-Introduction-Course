@@ -1,54 +1,166 @@
-# x = 0
-# 3.times do
-#   x += 1
+
+
+
+
+# def scream(words)
+#   words = words + "!!!!"
+#   puts words
+#   return
 # end
-# puts x
+
+# scream("Yippeee")
 
 
 
-# # puts "Please enter your first name:"
-# # first_name = gets.chomp
-# # puts "Please enter your last name:"
-# # last_name = gets.chomp
+# def multiply(a, b)
+# 	a * b
+# end
 
-# # 10.times do 
-# # 	puts "Hello there #{first_name + " " + last_name}. Are you prepared to practice?"
+# p multiply(3, 9)
+
+
+
+# def greeting(name)
+# 	puts "Hello there " + name + "."
+# end
+
+# greeting("Justin")
+
+
+# def add(a, b)
+# 	a + b
+# end
+
+# def subtract(a, b)
+# 	a - b
+# end
+
+# def multiply(a, b)
+# 	a * b
+# end
+
+
+# p add(2, 4)
+# p subtract(5, 6)
+
+# p multiply(add(2, 4), subtract(5, 6))
+
+# p add(subtract(80, 10), multiply(subtract(20, 6), add(30, 5)))
+
+
+
+# # def add_three(n)
+# # 	new_value = n + 3
+# # 	puts new_value
+# # 	new_value
 # # end
 
+# # add_three(5).times {puts 'Will this work?'}
+
+# # def just_assignment(number)
+# #   foo = number + 3
+# # end
+
+# # just_assignment(2)
 
 
-# # # puts "Please enter your age:"
-# # # age = gets.chomp.to_i
 
-# # # def age_in(num)
-# # # 	puts "In 10 years you will be #{num + 10}."
-# # # 	puts "In 20 years you will be #{num + 20}."
-# # # 	puts "In 30 years you will be #{num + 30}."
-# # # 	puts "In 40 years you will be #{num + 40}."
+# # def add_three(number)
+# #   return number + 3
+# #   number + 4
+# # end
+
+# # returned_value = add_three(4)
+# # puts returned_value
+
+
+
+# # a = [1, 2, 3]
+
+# # def mutate(array)
+# #   array.pop
+# # end
+
+# # p "Before mutate method: #{a}"
+# # mutate(a)
+# # p "After mutate method: #{a}"
+
+# # p mutate(a)
+# # p mutate(a)
+# # p a
+
+# # def some_method(number)
+# #   number = 7 # this is implicitly returned by the method
+# # end
+
+# # a = 5
+# # some_method(a)
+# # puts a
+
+
+
+# # def say(words='hello')
+# # 	puts words + "."
+# # end
+
+# # say()
+# # say("Hi")
+# # say("how are you?")
+# # say("I'm fine, how are you?")
+
+
+
+# # x = 0
+# # 3.times do
+# #   x += 1
+# # end
+# # puts x
+
+
+
+# # # puts "Please enter your first name:"
+# # # first_name = gets.chomp
+# # # puts "Please enter your last name:"
+# # # last_name = gets.chomp
+
+# # # 10.times do 
+# # # 	puts "Hello there #{first_name + " " + last_name}. Are you prepared to practice?"
 # # # end
 
-# # # puts age_in(age)
+
+
+# # # # puts "Please enter your age:"
+# # # # age = gets.chomp.to_i
+
+# # # # def age_in(num)
+# # # # 	puts "In 10 years you will be #{num + 10}."
+# # # # 	puts "In 20 years you will be #{num + 20}."
+# # # # 	puts "In 30 years you will be #{num + 30}."
+# # # # 	puts "In 40 years you will be #{num + 40}."
+# # # # end
+
+# # # # puts age_in(age)
 
 
 
-# # # puts 39.232 * 39.232
-# # # puts 3.4 * 3.4
-# # # puts 6.5 * 6.5
+# # # # puts 39.232 * 39.232
+# # # # puts 3.4 * 3.4
+# # # # puts 6.5 * 6.5
 
 
 
-# # # puts 3.43 * 34.56 * 39348.3
+# # # # puts 3.43 * 34.56 * 39348.3
 
 
 
-# # # puts 5 * 4 * 3 * 2 * 1
-# # # puts 6 * 5 * 4 * 3 * 2 * 1
-# # # puts 7 * 6 * 5 * 4 * 3 * 2 * 1
-# # # puts 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1
+# # # # puts 5 * 4 * 3 * 2 * 1
+# # # # puts 6 * 5 * 4 * 3 * 2 * 1
+# # # # puts 7 * 6 * 5 * 4 * 3 * 2 * 1
+# # # # puts 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1
 
 
 
-# # # first_name = "Justin "
-# # # last_name = "Hosman"
+# # # # first_name = "Justin "
+# # # # last_name = "Hosman"
 
-# # # puts first_name + last_name
+# # # # puts first_name + last_name
