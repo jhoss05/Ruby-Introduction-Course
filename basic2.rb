@@ -1,4 +1,43 @@
+a = [1, 2, 3, 4, 5, 6, 7]
 
+b = a.map { |num| num +2}
+
+puts a
+puts "---------"
+puts b
+
+
+
+# arr = [1,3,5,7,9,11]
+
+# number = 3
+
+# p arr.include?(3)
+
+
+
+
+# a = [1,2,3,4,5]
+
+# a.each_with_index { |val, idx| puts "the value is #{val} and the index is #{idx}."}
+
+
+
+# def mutate(arr)
+#   arr.pop
+# end
+
+# def not_mutate(arr)
+#   arr.select { |i| i > 3 }
+# end
+
+# a = [1, 2, 3, 4, 5, 6]
+# puts mutate(a)
+# puts "------"
+# puts not_mutate(a)
+# puts "------"
+
+# puts a
 
 
 
