@@ -1,12 +1,176 @@
-def equal_to_four(x)
-      if x == 4
-        puts "yup"
-      else
-        puts "nope"
-    end
-  end
 
-    equal_to_four(5)
+
+
+
+# puts "Give me a number:"
+# number = gets.chomp.to_i
+
+# def recur(num)
+# 	if num > 0
+# 	puts num -= 1
+# 		recur(num)
+# 	else
+# 		puts "Have a nice day."
+# 	end
+# end
+
+# recur(number)
+
+
+
+# top_five_games = ["heat", "mario", "face"]
+
+# top_five_games.each_with_index do |game, index|
+# 	puts "#{index + 1}. #{game}"
+# end
+
+
+
+
+# array = [1, 23, 4, 5, 3, 6, 7, 90]
+
+# def each_with_index(arr)
+# 	arr.each do |num|
+# 		index = arr.index(num)
+# 		puts "The index for #{num} is #{index}."
+# 	end
+# end
+
+# each_with_index(array)
+
+
+
+# number = ()
+
+# while number != "STOP"
+# 	puts "Give me an number:"
+# 	number = gets.chomp
+# 	if number == "STOP"
+# 		puts "I will now stop program."
+# 		break
+# 	end
+# 	if number.to_i <= 25 
+# 		puts "#{number} is less than 25."
+# 	else
+# 		puts "#{number} is more than 25."
+# 	end
+# end
+	
+
+
+
+# x = [1, 2, 3, 4, 5]
+# x.each do |a|
+#   puts a + 1
+#   puts a
+# end
+
+
+
+# names = ['Bob', 'Joe', 'Steve', 'Janice', 'Susan', 'Helen']
+# x = 1
+
+# names.each do |name|
+# 	puts "#{x}. #{name}"
+# 	x += 1
+# end
+  
+
+
+
+# x = 0
+
+# while x <= 10
+# 	if x == 7
+# 		break
+# 	elsif x.odd?
+# 		puts x
+# 	end
+# 	x += 1
+# end
+			
+
+
+
+
+# x = [1,2,3,4,5]
+
+# for i in x do 
+# 	puts i  
+# end
+
+# puts "Done!"
+
+
+# x = gets.chomp.to_i
+
+# for y in 1..x do 
+# 	puts y
+# end
+
+# puts "Done!"
+
+
+# x = gets.chomp.to_i
+
+# begin
+# 	puts x
+# 	x -= 1
+# end while x >= 0 
+
+# puts "Done!"
+
+
+# x = gets.chomp.to_i
+
+# until x < 0 
+# 	puts x
+# 	x -= 1
+# end
+
+# puts "Done!"
+
+
+# x = gets.chomp.to_i
+
+# while x >= 0 
+# 	puts x
+# 	x = x - 1
+# end
+
+# puts 'Done!'
+
+
+
+# i = 0
+# loop do
+# 	i += 2
+# 	if i == 4
+# 		next
+# 	end
+# 	puts "#{i}"
+# 	if i == 10
+# 		break
+# 	end
+# end
+
+
+
+# loop do
+# 	puts "This will keep printing until you hit Ctrl + c."
+# end
+
+
+
+# def equal_to_four(x)
+#       if x == 4
+#         puts "yup"
+#       else
+#         puts "nope"
+#     end
+#   end
+
+#     equal_to_four(5)
 
 
 # puts "Please enter a number between 0 and 100:"
