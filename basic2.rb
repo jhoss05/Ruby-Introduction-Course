@@ -1,3 +1,43 @@
+contact_data = [["joe@email.com", "123 Main st.", "555-123-4567"],
+            ["sally@email.com", "404 Not Found Dr.", "123-234-3454"]]
+
+contacts = {"Joe Smith" => {}, "Sally Johnson" => {}}
+
+
+
+
+# h = {a:1, b:2, c:3, d:4, e:5}
+
+# h.delete_if { |k, v| v < 3.5 }
+
+# p h
+
+
+
+# hash = [color: 'red', face: 'round']
+
+# hash2 = [:sky => 'blue', :volcano => 'red']
+
+# p hash
+# p hash2
+
+
+# arr =  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# arr2 = []
+
+# arr.each do |num|
+# 	arr2 = arr.select { |num| num.odd? }
+# end
+
+# arr << 11
+# arr.unshift(0)
+# arr.pop
+# arr << 3
+# arr.uniq!
+
+# p arr2
+# p arr
+
 # arr = ["laboratory", "experiment", "pans labyrinth", "elaborate", "polar bear"]
 
 # arr.each do |word|
