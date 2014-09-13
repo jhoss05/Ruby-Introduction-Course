@@ -1,10 +1,77 @@
-a = [1, 2, 3, 4, 5, 6, 7]
+# arr = ["laboratory", "experiment", "pans labyrinth", "elaborate", "polar bear"]
 
-b = a.map { |num| num +2}
+# arr.each do |word|
+# 	if /lab/.match(word)
+# 		puts "#{word.upcase} contains 'lab'."
+# 		puts "+ + + + + + + + + + + +"
+# 	else
+# 		puts "#{word.upcase} does not contain 'lab'."
+# 		puts "+ + + + + + + + + + + +"
+# 	end
+# end
 
-puts a
-puts "---------"
-puts b
+
+
+
+# words =  ['demo', 'none', 'tied', 'evil', 'dome', 'mode', 'live',
+#           'fowl', 'veil', 'wolf', 'diet', 'vile', 'edit', 'tide',
+#           'flow', 'neon']
+
+# result = {}
+
+# words.each do |word|
+# 	key = word.split('').sort.join
+# 	if result.has_key?(key)
+# 		result[key].push(word)
+# 	else
+# 		result[key] = [word]
+# 	end
+# end
+
+# result.each do |k, v|
+# 	puts "= = = = = = = = = = = ="
+# 	p v
+# end
+
+# p "= = = = = = = = = = = = ="
+# p result
+
+
+
+# person = {name: 'Bob', occupation: 'web developer', hobbies: 'painting'}
+
+# p person[:name]
+
+
+
+# family = {  uncles: ["bob", "joe", "steve"],
+#             sisters: ["jane", "jill", "beth"],
+#             brothers: ["frank","rob","david"],
+#             aunts: ["mary","sally","susan"]
+#           }
+
+# p family.has_value?(["bob", "joe", "steve"])
+
+
+
+# p family.keys
+# puts "======"
+# p family.values
+
+
+
+# p family.select { |k,v| k == :sisters }
+# p "---------"
+# p family.select { |k,v| k == :brothers }
+
+
+# a = [1, 2, 3, 4, 5, 6, 7]
+
+# b = a.map { |num| num +2}
+
+# puts a
+# puts "---------"
+# puts b
 
 
 
